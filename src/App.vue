@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="menu">
+    <div id="ranking">
       <div id="brand">
         <router-link to="/">
           <img src="/images/logo.png">
@@ -14,7 +14,7 @@
           </div> 
         </router-link>
         <router-link to="/compare">
-          <div class="menu-item">
+          <div class="ranking-item">
             <img src="/images/love.png">
             <p> {{iNum}} Athletes</p>
           </div>
@@ -52,14 +52,14 @@ export default {
 body {
   margin: 50px 100px;
 }
-#menu {
+#ranking {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 5px;
   grid-template-areas: "none brand side";
   margin-bottom: 50px;
 }
-#menu a {
+#ranking a {
   color: #000000;
 }
 #brand {
@@ -78,11 +78,11 @@ body {
 #side img {
   width: 50px;
 }
-.menu-item {
+.ranking-item {
   display: flex;
   flex-direction: column;
 }
-.menu-item p {
+.ranking-item p {
   margin: 0px;
 }
 .browse {
