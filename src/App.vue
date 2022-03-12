@@ -16,7 +16,7 @@
         <router-link to="/compare">
           <div class="menu-item">
             <img src="/images/love.png">
-            <p> {{iNum}} Items</p>
+            <p> {{iNum}} Athletes</p>
           </div>
         </router-link>
       </div>
