@@ -7,7 +7,7 @@ let mock = [{
   },
   {
     id: 2,
-    name: "Petr11 Yan",
+    name: "Petr Yan",
     record: "16-2",
     weight: "Bantamweight",
     image: "pyan.jpg"
