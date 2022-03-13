@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     athletes() {
-      return this.$root.$data.products.filter(athlete => product.weight === this.weight);
+      return this.$root.$data.athletes.filter(athlete => athlete.weight === this.weight);
     }
   },
   methods: {
